@@ -1,0 +1,39 @@
+{
+    "_comment": "This is a sample data file. Place predefined datasets here.",
+    "examples": {
+        "countries": [
+            {
+                "code": "IN",
+                "name": "India"
+            },
+            {
+                "code": "US",
+                "name": "United States"
+            },
+            {
+                "code": "GB",
+                "name": "United Kingdom"
+            }
+        ],
+        "roles": [
+            {
+                "key": "admin",
+                "description": "Administrator with full access"
+            },
+            {
+                "key": "user",
+                "description": "Regular application user"
+            },
+            {
+                "key": "guest",
+                "description": "Limited access user"
+            }
+        ],
+        "settings": {
+            "theme": "dark",
+            "language": "en",
+            "notifications": true
+        }
+    },
+    "how_to_use": "You can import JSON data like: import countries from '../data/countries.json' assert { type: 'json' };"
+}
